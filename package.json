@@ -1,0 +1,30 @@
+{
+  "name": "crystalnotes",
+  "version": "1.0.0",
+  "description": "A personal note-taking application",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build step not defined'",
+    "test": "echo 'No tests defined'"
+  },
+  "keywords": [
+    "notes",
+    "note-taking",
+    "application"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/crystalnotes.git"
+  },
+  "homepage": "https://github.com/yourusername/crystalnotes#readme",
+  "bugs": {
+    "url": "https://github.com/yourusername/crystalnotes/issues"
+  }
+}
