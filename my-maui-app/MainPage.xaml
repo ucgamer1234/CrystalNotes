@@ -1,0 +1,19 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="my_maui_app.MainPage"
+             Title="Main Page">
+
+    <StackLayout Padding="20">
+        <Label Text="Welcome to My MAUI App!"
+               FontSize="32"
+               HorizontalOptions="Center" />
+
+        <Button Text="Sign In"
+                Command="{Binding NavigateToSignInCommand}"
+                HorizontalOptions="Center" />
+
+        <Button Text="Sign Up"
+                Command="{Binding NavigateToSignUpCommand}"
+                HorizontalOptions="Center" />
+    </StackLayout>
+</ContentPage>

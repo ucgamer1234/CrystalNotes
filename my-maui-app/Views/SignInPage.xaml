@@ -1,0 +1,27 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="my_maui_app.Views.SignInPage"
+             Title="Sign In">
+
+    <StackLayout Padding="20">
+        <Label Text="Sign In"
+               FontSize="32"
+               HorizontalOptions="Center" />
+
+        <Entry x:Name="UsernameEntry"
+               Placeholder="Username"
+               Keyboard="Text" />
+
+        <Entry x:Name="PasswordEntry"
+               Placeholder="Password"
+               IsPassword="True" />
+
+        <Button Text="Sign In"
+                Command="{Binding SignInCommand}" />
+
+        <Label Text="Don't have an account?"
+               HorizontalOptions="Center" />
+        <Button Text="Sign Up"
+                Command="{Binding NavigateToSignUpCommand}" />
+    </StackLayout>
+</ContentPage>
